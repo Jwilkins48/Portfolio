@@ -292,22 +292,30 @@ body {
 }
 
 .workingOnContainer {
+  position: relative;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   height: 100px;
+  width: 83rem;
   margin-top: 15px;
   font-family: "Comfortaa", cursive;
-  width: 83rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 6px;
   background-color: #e0a969;
+  overflow: hidden;
 }
 
-.workingOnIcons i {
-  font-size: 84px;
+.workingOnIcons {
+  font-size: 80px;
   margin-top: 14px;
   color: #335458;
+}
+
+/* Carousel */
+
+.swiper-slide {
+  width: 230px;
+  padding-left: 40px;
 }
 
 /* PROJECT SECTION */

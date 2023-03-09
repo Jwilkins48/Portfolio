@@ -3,6 +3,7 @@ import ScrollToTop from "react-scroll-to-top";
 import profilePicture from "../../assets/profilePictureEdit.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Carousel from "../layout/Carousel";
 
 function About() {
   useEffect(() => {
@@ -52,23 +53,7 @@ function About() {
           </div>
         </div>
 
-        <div className="workingOnContainer">
-          <div className="workingOnIcons">
-            <i className="devicon-html5-plain-wordmark"></i>
-          </div>
-          <div className="workingOnIcons">
-            <i className="devicon-css3-plain-wordmark"></i>
-          </div>
-          <div className="workingOnIcons">
-            <i className="devicon-react-original"></i>
-          </div>
-          <div className="workingOnIcons">
-            <i className="devicon-nodejs-plain"></i>
-          </div>
-          <div className="workingOnIcons">
-            <i className="devicon-javascript-plain"></i>
-          </div>
-        </div>
+        <Carousel />
       </div>
     </div>
   );
