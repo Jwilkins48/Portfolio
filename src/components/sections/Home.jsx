@@ -8,11 +8,13 @@ function Home() {
         <RightSidebar />
 
         <div className="messageContainer">
-          <h1 className="helloMessage font-bold animate__animated animate__fadeIn">
+          <h1 className="helloMessage ml-2 lg:ml-[252px] font-bold animate__animated animate__fadeIn">
             Hello, I'm Jenna{" "}
           </h1>
-          <div className="welcomeMessage">
-            <h1 className="font-bold">Front End Web Developer</h1>
+          <div className="welcomeMessage ml-1 lg:ml-[250px]">
+            <h1 className="font-bold text-[35px] lg:text-[52px]">
+              Front End Web Developer
+            </h1>
           </div>
         </div>
 

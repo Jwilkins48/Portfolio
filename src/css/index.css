@@ -51,7 +51,6 @@ body {
   width: 40px;
   position: fixed;
   bottom: 0;
-  left: 23px;
   right: auto;
   z-index: 1;
 }
@@ -109,7 +108,7 @@ body {
   height: 65px;
   background-color: #103b42;
   font-size: 28px;
-  position: sticky;
+  position: fixed;
   z-index: 3;
   top: 0;
   transition: all 0.4s ease-in-out;
@@ -122,8 +121,6 @@ body {
 .rightInfo {
   display: flex;
   align-items: center;
-  margin: 5px;
-  margin-right: 45px;
   gap: 30px;
   font-family: "Lobster Two", cursive;
   font-size: 25px;
@@ -131,7 +128,6 @@ body {
 
 .leftInfo {
   text-decoration: none;
-  margin-left: 65px;
   text-decoration-style: none;
   color: #c0c7cc;
   font-weight: bold;
@@ -150,7 +146,6 @@ body {
 .skillContainer {
   position: relative;
   background-color: #0e3238;
-  height: 100vh;
 }
 
 .contactContainer {
@@ -162,7 +157,6 @@ body {
 }
 
 .welcomeMessage {
-  margin-left: 250px;
   margin-bottom: 120px;
 }
 
@@ -175,7 +169,7 @@ body {
   color: #2fcc98;
   width: fit-content;
   font-family: "Lobster Two", cursive;
-  font-size: 52px;
+  /* font-size: 52px; */
   overflow: hidden;
   border-right: 0.15em solid #54c49e;
   white-space: nowrap;
@@ -222,23 +216,18 @@ body {
 
 .aboutMeContainer {
   font-family: "Comfortaa", cursive;
-  width: 900px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 6px;
-  padding: 30px;
-  height: 410px;
   background-color: #23696946;
   color: #ffd5a6;
 }
 
 .aboutMe {
-  font-size: 20px;
   line-height: 35px;
   pointer-events: none;
 }
 
 .aboutMainContentContainer {
-  margin-top: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,8 +241,8 @@ body {
 .profilePicture {
   margin-right: 30px;
   position: relative;
-  width: 390px;
-  height: 390px;
+  /* width: 390px; */
+  /* height: 390px; */
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
   box-shadow: 20px 20px #22b4b926;
   transition: all 0.4s ease;
@@ -296,7 +285,7 @@ body {
   display: flex;
   align-items: center;
   height: 100px;
-  width: 83rem;
+  /* width: 83rem; */
   margin-top: 15px;
   font-family: "Comfortaa", cursive;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -306,7 +295,6 @@ body {
 }
 
 .workingOnIcons {
-  font-size: 80px;
   margin-top: 14px;
   color: #335458;
 }
@@ -337,7 +325,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 109rem;
+  /* width: 109rem; */
   height: 47rem;
 }
 
@@ -414,7 +402,7 @@ body {
 .contactHeader {
   text-shadow: 4px 3px 0px #b87325, 9px 8px 0px rgba(0, 0, 0, 0.15);
   color: #e29d4d;
-  font-size: 70px;
+  /* font-size: 70px; */
   font-family: "Comfortaa", cursive;
 }
 
@@ -425,7 +413,7 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-align: center;
   font-family: "Comfortaa", cursive;
-  width: 45rem;
+  /* width: 45rem; */
   height: 25rem;
   background-color: #286872;
   border-radius: 10px;

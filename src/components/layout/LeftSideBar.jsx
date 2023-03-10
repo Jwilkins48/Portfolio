@@ -1,6 +1,6 @@
 function LeftSideBar() {
   return (
-    <div className="leftIconInfo">
+    <div className="leftIconInfo left-2  lg:left-[23px]">
       <ul>
         <li>
           <a href="https://github.com/Jwilkins48">

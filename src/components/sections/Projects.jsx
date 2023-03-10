@@ -3,7 +3,7 @@ function Projects() {
     <div id="projects" className="projectContainer">
       <h1 className="projectTitle">Projects</h1>
 
-      <div className="allProjectContainer">
+      <div className="allProjectContainer lg:w-[109rem] w-60">
         <div className="topRow">
           <div className="project">
             <a href="">

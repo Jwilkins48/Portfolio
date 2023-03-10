@@ -8,7 +8,7 @@ import Contact from "../src/components/sections/Contact";
 function App() {
   return (
     <div className="App">
-      <div className="mainContent">
+      <div className="mainContent overflow-x-hidden">
         <LeftSideBar />
         <Navbar />
         <Home />

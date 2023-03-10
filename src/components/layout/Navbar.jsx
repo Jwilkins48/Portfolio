@@ -16,13 +16,18 @@ function Navbar() {
   return (
     <div
       className={
-        color ? "headerContainer headerContainer-bg" : "headerContainer"
+        color
+          ? "headerContainer w-full headerContainer-bg "
+          : "headerContainer w-full "
       }
     >
-      <a className="leftInfo animate__animated animate__fadeIn" href="/">
+      <a
+        className="leftInfo ml-1 lg:ml-[65px] animate__animated animate__fadeIn"
+        href="/"
+      >
         Jenna
       </a>
-      <div className="rightInfo">
+      <div className="rightInfo lg:m-[5px] lg:mr-[45px]">
         <a
           className="navBarLinks animate__animated animate__fadeIn"
           href="#about"
