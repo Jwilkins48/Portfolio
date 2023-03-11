@@ -30,16 +30,15 @@ function About() {
           className="aboutTopInfo flex flex-col md:flex-row lg:flex-row"
         >
           <img
-            className="profilePicture w-80 lg:w-[390px] lg:h-[390px] lg:mb-0 mb-8"
+            className="profilePicture w-80 lg:w-[390px] ml-[-9px] lg:ml-[0px] lg:mr-[30px] lg:h-[390px] lg:mb-0 mb-8"
             src={profilePicture}
             alt="profile"
           ></img>
 
-          <div className="aboutMeContainer p-4 lg:p-[30px] lg:h-[410px] ml-[-26px] lg:ml-0 overflow-hidden lg:w-[900px]">
-            <p className="aboutMe lg:text-[20px] text-center lg:text-start">
-              Hello, My name is Jenna Wilkins. I started doing front end web
-              development because of my strong desire for a career in problem
-              solving and to have the opportunity to learn about and create
+          <div className="aboutMeContainer m-[12px] lg:m-0 ml-[-10px] lg:w-[900px] lg:h-[410px] p-4 lg:p-[30px] overflow-hidden">
+            <p className="aboutMe text-[15px] lg:text-[20px]">
+              Hello, My name is Jenna! I started doing front end web development
+              because of my desire for a career in problem solving and creating
               projects that I can feel proud of. I currently have an Associates
               Degree in Web and Mobile Development and outside of working I
               spend all my free time creating as many new projects as I can. I
@@ -48,11 +47,11 @@ function About() {
                 {" "}
                 HTML, CSS, JavaScript and ReactJS.
               </span>{" "}
-              I have recently been working on creating projects using{" "}
+              I have recently been working on projects using{" "}
               <span className="text-green-400">Firebase </span>
-              so that I can strengthen my experience when working with a
-              database and authentication. Below you will find other languages I
-              have been working on as well as some of my recent projects!
+              to strengthen my experience with databases and authentication.
+              Below you will find other languages I have been working on as well
+              as some of my recent projects!
             </p>
           </div>
         </div>
