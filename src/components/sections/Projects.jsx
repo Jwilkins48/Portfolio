@@ -1,3 +1,8 @@
+import picture1 from "../../assets/projectImgs/ClothingStore.png";
+import picture2 from "../../assets/projectImgs/PetAdoption.png";
+import picture3 from "../../assets/projectImgs/ClothingStore.png";
+import picture4 from "../../assets/projectImgs/ClothingStore.png";
+import picture5 from "../../assets/projectImgs/ClothingStore.png";
 import picture6 from "../../assets/projectImgs/TwitterClone.png";
 
 function Projects() {
@@ -9,11 +14,11 @@ function Projects() {
         <div className="topRow">
           <div className="project">
             <a href="">
-              {/* <img
+              <img
                 className="projectPicture"
                 src={picture1}
                 alt="profile"
-              ></img> */}
+              ></img>
               <div className="projectDescription">
                 <p>
                   <span className="projectNameDesc">Clothing Store</span> -
@@ -25,17 +30,15 @@ function Projects() {
 
           <div className="project">
             <a href="">
-              {/* <img
+              <img
                 className="projectPicture"
                 src={picture2}
                 alt="profile"
-              ></img> */}
+              ></img>
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">
-                    Recreated Restaurant Page
-                  </span>{" "}
-                  - HTML5 - CSS3 - React
+                  <span className="projectNameDesc">Pet Adoption</span> - HTML5
+                  - CSS3 - React - API
                 </p>
               </div>
             </a>
@@ -50,8 +53,10 @@ function Projects() {
               ></img> */}
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">Pet Adoption</span> - HTML5
-                  - CSS3 - React - API
+                  <span className="projectNameDesc">
+                    Recreated Restaurant Page
+                  </span>{" "}
+                  - HTML5 - CSS3 - React
                 </p>
               </div>
             </a>
