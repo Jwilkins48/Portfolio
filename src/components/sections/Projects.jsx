@@ -1,3 +1,5 @@
+import picture6 from "../../assets/projectImgs/TwitterClone.png";
+
 function Projects() {
   return (
     <div id="projects" className="projectContainer">
@@ -14,8 +16,8 @@ function Projects() {
               ></img> */}
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">Twitter Clone</span> - HTML5
-                  - CSS3 - React
+                  <span className="projectNameDesc">Clothing Store</span> -
+                  HTML5 - CSS3 - React - Firebase
                 </p>
               </div>
             </a>
@@ -48,8 +50,8 @@ function Projects() {
               ></img> */}
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">Clothing Store</span> -
-                  HTML5 - CSS3 - React - Firebase
+                  <span className="projectNameDesc">Pet Adoption</span> - HTML5
+                  - CSS3 - React - API
                 </p>
               </div>
             </a>
@@ -66,8 +68,8 @@ function Projects() {
               ></img> */}
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">Pet Adoption</span> - HTML5
-                  - CSS3 - React - API
+                  <span className="projectNameDesc">Personal Blog</span> - HTML5
+                  - CSS3 - React - Firebase
                 </p>
               </div>
             </a>
@@ -82,8 +84,8 @@ function Projects() {
               ></img> */}
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">Personal Blog</span> - HTML5
-                  - CSS3 - React - Firebase
+                  <span className="projectNameDesc">To Do List</span> - HTML5 -
+                  CSS3 - React
                 </p>
               </div>
             </a>
@@ -91,15 +93,15 @@ function Projects() {
 
           <div className="project">
             <a href="">
-              {/* <img
+              <img
                 className="projectPicture"
                 src={picture6}
                 alt="profile"
-              ></img> */}
+              ></img>
               <div className="projectDescription">
                 <p>
-                  <span className="projectNameDesc">To Do List</span> - HTML5 -
-                  CSS3 - React
+                  <span className="projectNameDesc">Twitter Clone</span> - HTML5
+                  - CSS3 - React
                 </p>
               </div>
             </a>

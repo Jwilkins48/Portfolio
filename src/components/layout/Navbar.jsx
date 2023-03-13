@@ -22,26 +22,26 @@ function Navbar() {
       }
     >
       <a
-        className="leftInfo ml-1 lg:ml-[65px] animate__animated animate__fadeIn"
+        className="leftInfo ml-1 lg:ml-[65px] animate__animated animate__fadeIn name"
         href="/"
       >
         Jenna
       </a>
       <div className="rightInfo lg:m-[5px] lg:mr-[45px]">
         <a
-          className="navBarLinks animate__animated animate__fadeIn"
+          className="navBarLinks animate__animated animate__fadeInDown one"
           href="#about"
         >
           About
         </a>
         <a
-          className="navBarLinks animate__animated animate__fadeIn"
+          className="navBarLinks animate__animated animate__fadeInDown two"
           href="#projects"
         >
           Projects
         </a>
         <a
-          className="navBarLinks animate__animated animate__fadeIn"
+          className="navBarLinks animate__animated animate__fadeInDown three"
           href="mailto: Jenna48071@gmail.com"
         >
           Contact Me

@@ -19,6 +19,34 @@ body {
   background-color: #383b3b;
 }
 
+/* NAVBAR */
+
+.navBarLinks {
+  text-decoration: none;
+  color: #c0c7cc;
+  font-weight: bold;
+}
+
+.navBarLinks:hover {
+  color: rgba(214, 161, 100, 0.78);
+}
+
+/* NAVBAR ANIMATIONS */
+.animate__animated.animate__fadeIn.name {
+  --animate-duration: 2.5s;
+}
+.animate__animated.animate__fadeInDown.one {
+  --animate-duration: 1.5s;
+}
+.animate__animated.animate__fadeInDown.two {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInDown.three {
+  --animate-duration: 2.5s;
+}
+
+/* HOME */
+
 .scrollMessage {
   position: absolute;
   right: 1.5rem;
@@ -87,16 +115,6 @@ body {
   height: 120px;
   margin: 0px auto;
   background-color: #e0a969;
-}
-
-.navBarLinks {
-  text-decoration: none;
-  color: #c0c7cc;
-  font-weight: bold;
-}
-
-.navBarLinks:hover {
-  color: rgba(214, 161, 100, 0.78);
 }
 
 .headerContainer {

@@ -45,7 +45,7 @@ function About() {
               have been working with and am fairly experienced in{" "}
               <span className="text-green-400">
                 {" "}
-                HTML, CSS, JavaScript and ReactJS.
+                HTML5, CSS3, JavaScript and ReactJS.
               </span>{" "}
               I have recently been working on projects using{" "}
               <span className="text-green-400">Firebase </span>
