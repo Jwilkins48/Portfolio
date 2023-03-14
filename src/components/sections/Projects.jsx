@@ -1,6 +1,6 @@
 import picture1 from "../../assets/projectImgs/ClothingStore.png";
 import picture2 from "../../assets/projectImgs/PetAdoption.png";
-import picture3 from "../../assets/projectImgs/ClothingStore.png";
+import picture3 from "../../assets/projectImgs/Rosas.png";
 import picture4 from "../../assets/projectImgs/ClothingStore.png";
 import picture5 from "../../assets/projectImgs/ClothingStore.png";
 import picture6 from "../../assets/projectImgs/TwitterClone.png";
@@ -45,11 +45,11 @@ function Projects() {
 
           <div className="project">
             <a href="">
-              {/* <img
+              <img
                 className="projectPicture"
                 src={picture3}
                 alt="profile"
-              ></img> */}
+              ></img>
               <div className="projectDescription">
                 <p>
                   <span className="projectNameDesc">
