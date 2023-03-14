@@ -9,7 +9,6 @@ function Projects() {
   return (
     <div id="projects" className="projectContainer">
       <h1 className="projectTitle">Projects</h1>
-
       <div className="allProjectContainer lg:w-[109rem] w-60">
         <div className="topRow">
           <div className="project">
