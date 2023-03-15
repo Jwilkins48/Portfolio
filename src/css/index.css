@@ -276,8 +276,6 @@ body {
 .projectPicture {
   object-fit: fill;
   position: relative;
-  width: 25rem;
-  height: 15rem;
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
   box-shadow: 20px 20px #22b4b926;
   transition: all 0.4s ease;
@@ -326,30 +324,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: #103b42;
-  height: 100vh;
-}
-
-.allProjectContainer {
-  font-family: "Comfortaa", cursive;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: #252121;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* width: 109rem; */
-  height: 47rem;
-}
-
-.topRow,
-.bottomRow {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.bottomRow {
-  margin-top: 55px;
+  /* height: 100vh; */
 }
 
 .project {
@@ -359,9 +334,9 @@ body {
   text-align: center;
   background-color: #1f5861;
   border-radius: 6px;
-  width: 25rem;
-  height: 15rem;
-  margin: 8px;
+  width: 37rem;
+  height: 20rem;
+  margin-bottom: 8em;
 }
 
 .projectDescription {
@@ -374,28 +349,11 @@ body {
 .projectTitle {
   font-family: "Raleway", sans-serif;
   position: relative;
-  margin-bottom: 4.2rem;
-  font-size: 45px;
+  font-size: 42px;
   color: #e0a969;
   pointer-events: none;
   z-index: 1;
-}
-
-.projectTitle::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-image: url(https://images.getbento.com/accounts/5eb909e4df0c49fdc0c44cc3184f23f6/media/images/79294lines2.gif);
-  color: #e0a969;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  right: -35px;
-  top: -30px;
-  bottom: 0;
-  filter: brightness(0);
+  font-weight: bold;
 }
 
 .projectNameDesc {

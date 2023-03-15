@@ -7,7 +7,7 @@ import Contact from "../src/components/sections/Contact";
 
 function App() {
   return (
-    <div className="App overflow-x-hidden">
+    <div className="App overflow-x-hidden lg:overflow-x-clip ">
       <div className="mainContent">
         <LeftSideBar />
         <Navbar />
