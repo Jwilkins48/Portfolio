@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../css/hamburgerMenu.css";
 
 function Navbar() {
   //Navbar change on scroll
@@ -22,12 +23,12 @@ function Navbar() {
       }
     >
       <a
-        className="leftInfo ml-1 lg:ml-[65px] animate__animated animate__fadeIn name"
+        className="leftInfo ml-4 lg:ml-[65px] animate__animated animate__fadeIn name"
         href="/"
       >
         Jenna
       </a>
-      <div className="rightInfo lg:m-[5px] lg:mr-[45px]">
+      <div className="rightInfo lg:m-[5px] lg:mr-[45px] hidden sm:flex">
         <a
           className="navBarLinks animate__animated animate__fadeInDown one"
           href="#about"
@@ -46,6 +47,37 @@ function Navbar() {
         >
           Contact Me
         </a>
+      </div>
+
+      <div className="sm:hidden flex">
+        <label>
+          <input type="checkbox" />
+          <span className="menu">
+            <span className="hamburger"></span>
+          </span>
+          <ul>
+            <li>
+              <a className="hamburgerItem" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="hamburgerItem" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a className="hamburgerItem" href="#">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a className="hamburgerItem" href="#contactMe">
+                Contact Me
+              </a>
+            </li>
+          </ul>
+        </label>
       </div>
     </div>
   );

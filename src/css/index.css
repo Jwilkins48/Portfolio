@@ -137,7 +137,6 @@ body {
 }
 
 .rightInfo {
-  display: flex;
   align-items: center;
   gap: 30px;
   font-family: "Lobster Two", cursive;

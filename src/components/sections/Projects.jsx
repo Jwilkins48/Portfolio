@@ -7,7 +7,7 @@ import picture6 from "../../assets/projectImgs/TwitterClone.png";
 
 function Projects() {
   return (
-    <div id="projects" className="projectContainer">
+    <section id="projects" className="projectContainer">
       <h1
         // data-aos="fade"
         // data-aos-duration="1000"
@@ -120,7 +120,7 @@ function Projects() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

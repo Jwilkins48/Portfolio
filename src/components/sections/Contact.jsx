@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contactMe" className="contactContainer h-[48rem] sm:h-screen">
+    <section id="contactMe" className="contactContainer h-[48rem] sm:h-screen">
       <div className="contactBox w-[21rem] md:pb-0 h-[25rem] mx-1 lg:w-[45rem]">
         <h1 className="contactHeader text-[40px] lg:text-[70px] font-bold">
           Interested?
@@ -26,7 +26,7 @@ function Contact() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

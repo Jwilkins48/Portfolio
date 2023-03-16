@@ -11,7 +11,7 @@ function About() {
   }, []);
 
   return (
-    <div id="about" className="skillContainer z-[2] lg:h-screen pb-5">
+    <section id="about" className="skillContainer z-[2] lg:h-screen pb-5">
       <div className="skillHeaderContainer ">
         <h1 data-aos="fade" data-aos-duration="1000" className="skillHeader ">
           About me
@@ -59,7 +59,7 @@ function About() {
 
         <Carousel />
       </div>
-    </div>
+    </section>
   );
 }
 
