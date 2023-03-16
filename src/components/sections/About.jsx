@@ -9,6 +9,7 @@ function About() {
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
+
   return (
     <div id="about" className="skillContainer z-[2] lg:h-screen pb-5">
       <div className="skillHeaderContainer ">

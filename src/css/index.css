@@ -168,7 +168,7 @@ body {
 
 .contactContainer {
   background-color: #0e3238;
-  height: 100vh;
+
   position: sticky;
   bottom: 0;
   left: 0;
@@ -334,8 +334,8 @@ body {
   text-align: center;
   background-color: #1f5861;
   border-radius: 6px;
-  width: 37rem;
-  height: 20rem;
+  /* width: 37rem;
+  height: 20rem; */
   margin-bottom: 8em;
 }
 
@@ -349,7 +349,7 @@ body {
 .projectTitle {
   font-family: "Raleway", sans-serif;
   position: relative;
-  font-size: 42px;
+
   color: #e0a969;
   pointer-events: none;
   z-index: 1;
@@ -384,7 +384,7 @@ body {
   text-align: center;
   font-family: "Comfortaa", cursive;
   /* width: 45rem; */
-  height: 25rem;
+  /* height: 25rem; */
   background-color: #286872;
   border-radius: 10px;
   display: flex;
