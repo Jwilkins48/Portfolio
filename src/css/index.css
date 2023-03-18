@@ -15,7 +15,6 @@
 }
 
 body {
-  /* overflow-x: hidden; */
   background-color: #383b3b;
 }
 
@@ -323,7 +322,6 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: #103b42;
-  /* height: 100vh; */
 }
 
 .project {
@@ -432,4 +430,14 @@ body {
 
 .contactHeadersContainer {
   margin-bottom: 60px;
+}
+
+@media (max-width: 700px) {
+  .contactHeader {
+    text-shadow: none;
+  }
+  .contactBox {
+    box-shadow: none;
+    background-color: #0e3238;
+  }
 }

@@ -99,7 +99,21 @@ label a {
 .hamburgerItem {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation: fadeIn;
 }
+.hamburgerItem.one {
+  animation-duration: 2s;
+}
+.hamburgerItem.two {
+  animation-duration: 3s;
+}
+.hamburgerItem.three {
+  animation-duration: 4s;
+}
+.hamburgerItem.four {
+  animation-duration: 5s;
+}
+
 .hamburgerItem:hover {
   text-decoration: underline;
 }

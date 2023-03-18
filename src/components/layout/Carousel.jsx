@@ -1,7 +1,7 @@
 import "../../css/carousel.css";
 function Carousel() {
   return (
-    <div className="workingOnContainer mt-0 lg:mt-[15px] lg:w-[83rem] lg:mr-0 mr-[24px] w-[350px]">
+    <div className="workingOnContainer mt-0 lg:mt-[15px] lg:w-[83rem] lg:mr-0 mr-[24px] w-[95%] mx-6">
       <div className="flex animate absolute left-0 text-[#335458] ">
         <div className="flex w-[100%] justify-around">
           <a href="#" alt="HTML">

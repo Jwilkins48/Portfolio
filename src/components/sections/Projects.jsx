@@ -7,13 +7,9 @@ import picture6 from "../../assets/projectImgs/TwitterClone.png";
 
 function Projects() {
   return (
-    <section id="projects" className="projectContainer">
-      <h1
-        // data-aos="fade"
-        // data-aos-duration="1000"
-        className="projectTitle text-[30px] md:text-[42px] text-center sm:text-start my-10 lg:mt-28 lg:mb-12 lg:mr-[50.5rem] underline"
-      >
-        Some Things I've Been Working On...
+    <section id="projects" className="projectContainer pb-16">
+      <h1 className="projectTitle text-[30px] md:text-[42px] text-center sm:text-start mt-20 mb-12 lg:mt-40 lg:mb-12 lg:mr-[68rem] ">
+        Some Of My Projects
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-80 lg:mt-2 lg:mb-28">
         <div
@@ -27,7 +23,7 @@ function Projects() {
             <div className="projectDescription">
               <p>
                 <span className="projectNameDesc">Clothing Store</span> - HTML5
-                - CSS3 - React - Firebase
+                - CSS3 - Tailwind - React - Firebase
               </p>
             </div>
           </a>
@@ -44,7 +40,7 @@ function Projects() {
             <div className="projectDescription">
               <p>
                 <span className="projectNameDesc">Pet Adoption</span> - HTML5 -
-                CSS3 - React - API
+                CSS3 - Tailwind - React - API
               </p>
             </div>
           </a>
@@ -80,7 +76,7 @@ function Projects() {
             <div className="projectDescription">
               <p>
                 <span className="projectNameDesc">Personal Blog</span> - HTML5 -
-                CSS3 - React - Firebase
+                CSS3 - Tailwind - React - Firebase
               </p>
             </div>
           </a>

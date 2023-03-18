@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "../../css/hamburgerMenu.css";
+import "animate.css";
 
 function Navbar() {
+  //Checkbox toggle
+  const [checked, setChecked] = useState(false);
   //Navbar change on scroll
   const [color, setColor] = useState(false);
   const changeNavColor = () => {
@@ -11,11 +14,10 @@ function Navbar() {
       setColor(false);
     }
   };
-
   window.addEventListener("scroll", changeNavColor);
 
   return (
-    <div
+    <nav
       className={
         color
           ? "headerContainer w-full headerContainer-bg "
@@ -28,6 +30,7 @@ function Navbar() {
       >
         Jenna
       </a>
+      {/* DESKTOP */}
       <div className="rightInfo lg:m-[5px] lg:mr-[45px] hidden sm:flex">
         <a
           className="navBarLinks animate__animated animate__fadeInDown one"
@@ -49,37 +52,59 @@ function Navbar() {
         </a>
       </div>
 
+      {/* MOBILE */}
       <div className="sm:hidden flex">
         <label>
-          <input type="checkbox" />
+          <input
+            className="mr-5 mt-5 h-20 w-7 block invisible cursor-pointer"
+            type="checkbox"
+            checked={checked}
+            onClick={() => setChecked(!checked)}
+          />
           <span className="menu">
             <span className="hamburger"></span>
           </span>
-          <ul>
+          <ul className={checked ? "block" : "hidden"}>
             <li>
-              <a className="hamburgerItem" href="#about">
+              <a
+                onClick={() => setChecked(false)}
+                className="hamburgerItem one"
+                href="#about"
+              >
                 About
               </a>
             </li>
             <li>
-              <a className="hamburgerItem" href="#projects">
+              <a
+                onClick={() => setChecked(false)}
+                className="hamburgerItem two"
+                href="#projects"
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a className="hamburgerItem" href="#">
+              <a
+                onClick={() => setChecked(false)}
+                className="hamburgerItem three"
+                href="#"
+              >
                 Resume
               </a>
             </li>
             <li>
-              <a className="hamburgerItem" href="#contactMe">
+              <a
+                onClick={() => setChecked(false)}
+                className="hamburgerItem four"
+                href="#contactMe"
+              >
                 Contact Me
               </a>
             </li>
           </ul>
         </label>
       </div>
-    </div>
+    </nav>
   );
 }
 
