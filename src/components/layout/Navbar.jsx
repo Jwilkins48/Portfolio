@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../../css/hamburgerMenu.css";
 import "animate.css";
+import Carousel from "./Carousel";
 
 function Navbar() {
   //Checkbox toggle

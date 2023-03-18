@@ -4,10 +4,24 @@ import picture3 from "../../assets/projectImgs/Rosas.png";
 import picture4 from "../../assets/projectImgs/blog.png";
 import picture5 from "../../assets/projectImgs/Recipe.png";
 import picture6 from "../../assets/projectImgs/TwitterClone.png";
+import { useEffect, useState } from "react";
 
 function Projects() {
+  const [sideBar, setSideBar] = useState(false);
+  useEffect(() => {
+    sideBar
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "unset");
+  }, [sideBar]);
   return (
-    <section id="projects" className="projectContainer pb-16">
+    <section id="projects relative" className="projectContainer pb-16">
+      <div
+        className={
+          sideBar
+            ? "bg-[#335458] h-[110vh] w-[32rem] opacity-1 z-20 fixed top-0 right-0 open"
+            : "w-0 open	"
+        }
+      ></div>
       <h1 className="projectTitle text-[30px] md:text-[42px] text-center sm:text-start mt-20 mb-12 lg:mt-40 lg:mb-12 lg:mr-[68rem] ">
         Some Of My Projects
       </h1>
@@ -18,7 +32,7 @@ function Projects() {
           data-aos-delay="300"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
-          <a href="">
+          <div onClick={() => setSideBar(!sideBar)}>
             <img className="projectPicture" src={picture1} alt="profile"></img>
             <div className="projectDescription">
               <p>
@@ -26,7 +40,7 @@ function Projects() {
                 - CSS3 - Tailwind - React - Firebase
               </p>
             </div>
-          </a>
+          </div>
         </div>
 
         <div
@@ -35,7 +49,7 @@ function Projects() {
           data-aos-delay="600"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
-          <a href="">
+          <div onClick={() => setSideBar(!sideBar)}>
             <img className="projectPicture" src={picture2} alt="profile"></img>
             <div className="projectDescription">
               <p>
@@ -43,7 +57,7 @@ function Projects() {
                 CSS3 - Tailwind - React - API
               </p>
             </div>
-          </a>
+          </div>
         </div>
 
         <div
@@ -52,7 +66,7 @@ function Projects() {
           data-aos-delay="300"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
-          <a href="">
+          <div onClick={() => setSideBar(!sideBar)}>
             <img className="projectPicture" src={picture3} alt="profile"></img>
             <div className="projectDescription">
               <p>
@@ -62,7 +76,7 @@ function Projects() {
                 - HTML5 - CSS3 - React
               </p>
             </div>
-          </a>
+          </div>
         </div>
 
         <div
@@ -71,7 +85,7 @@ function Projects() {
           data-aos-delay="600"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
-          <a href="">
+          <div onClick={() => setSideBar(!sideBar)}>
             <img className="projectPicture" src={picture4} alt="profile"></img>
             <div className="projectDescription">
               <p>
@@ -79,7 +93,7 @@ function Projects() {
                 CSS3 - Tailwind - React - Firebase
               </p>
             </div>
-          </a>
+          </div>
         </div>
 
         <div
@@ -88,7 +102,7 @@ function Projects() {
           data-aos-delay="300"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
-          <a href="">
+          <div onClick={() => setSideBar(!sideBar)}>
             <img className="projectPicture" src={picture5} alt="profile"></img>
             <div className="projectDescription">
               <p>
@@ -96,7 +110,7 @@ function Projects() {
                 CSS3 - React - API
               </p>
             </div>
-          </a>
+          </div>
         </div>
 
         <div
@@ -105,7 +119,7 @@ function Projects() {
           data-aos-delay="600"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
-          <a href="">
+          <div onClick={() => setSideBar(!sideBar)}>
             <img className="projectPicture" src={picture6} alt="profile"></img>
             <div className="projectDescription">
               <p>
@@ -113,7 +127,7 @@ function Projects() {
                 CSS3 - React
               </p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>

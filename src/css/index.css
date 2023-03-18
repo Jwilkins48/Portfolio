@@ -307,6 +307,10 @@ body {
   color: #335458;
 }
 
+.open {
+  transition: ease-in 0.5s;
+}
+
 /* Carousel */
 
 .swiper-slide {
