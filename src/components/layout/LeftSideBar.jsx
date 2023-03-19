@@ -8,8 +8,8 @@ function LeftSideBar() {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/jenna4800/">
-            <i className="fab fa-instagram"></i>
+          <a href="mailto: Jenna48071@gmail.com">
+            <i className="fa-regular fa-envelope mb-1"></i>
           </a>
         </li>
         <li>
