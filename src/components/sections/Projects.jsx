@@ -13,9 +13,17 @@ function Projects() {
     src: "",
     description: "",
     languagesUsed: "",
+    gitHub: "",
     website: "",
   });
-  const onClickProject = (name, src, description, languagesUsed, website) => {
+  const onClickProject = (
+    name,
+    src,
+    description,
+    languagesUsed,
+    gitHub,
+    website
+  ) => {
     setSideBar(!sideBar);
     setFormData((prevState) => ({
       ...prevState,
@@ -23,6 +31,7 @@ function Projects() {
       src: src,
       description: description,
       languagesUsed: languagesUsed,
+      gitHub: gitHub,
       website: website,
     }));
   };
@@ -33,24 +42,37 @@ function Projects() {
       : (document.body.style.overflow = "unset");
   }, [sideBar]);
   return (
-    <section id="projects relative" className="projectContainer pb-16">
+    <section id="projects" className="projectContainer pb-16 relative">
       <div
         className={
           sideBar
-            ? "bg-[#335458] h-[110vh] w-[32rem] opacity-1 z-20 fixed top-0 right-0 open"
-            : "w-0 open"
+            ? "bg-[#335458] h-[110vh] w-full lg:w-[32rem] opacity-1 z-20 fixed top-0 right-0 open animate__animated animate__fadeInRight h-screen"
+            : ""
         }
       >
-        {sideBar ? <SideMenu formData={formData} /> : ""}
+        {sideBar ? (
+          <SideMenu
+            sideBar={sideBar}
+            setSideBar={setSideBar}
+            formData={formData}
+          />
+        ) : (
+          ""
+        )}
       </div>
-      <h1 className="projectTitle text-[40px] md:text-[60px] underline text-center mt-20 mb-12 lg:mt-40 lg:mb-12 lg:ml-[33rem] lg:w-full lg:flex justify-start ">
+      <div className={sideBar ? "overlay" : ""}></div>
+      <h1
+        data-aos="fade"
+        data-aos-duration="1500"
+        className="projectTitle text-[40px] md:text-[60px] underline text-center mt-20 mb-12 lg:mt-40 lg:mb-12 lg:ml-[33rem] lg:w-full lg:flex justify-start "
+      >
         Projects
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-80 lg:mt-2 lg:mb-28">
         <div
           data-aos="fade"
           data-aos-duration="1500"
-          data-aos-delay="300"
+          data-aos-delay="400"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -58,8 +80,9 @@ function Projects() {
               onClickProject(
                 "Clothing Store",
                 picture1,
-                "Daisies is an e-commerce website designed to display the latest in fashion",
-                ["HTML5", "CSS3", "TAILWIND", "REACT", "FIREBASE"]
+                "Daisies is an e-commerce website designed to display the latest in fashion. The Site features an option to sign in and add items to your wishlist. When you're ready to check out just visit the cart to see your total!",
+                [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
+                "https://github.com/Jwilkins48/Market"
               )
             }
           >
@@ -75,34 +98,8 @@ function Projects() {
 
         <div
           data-aos="fade"
-          data-aos-duration="1500"
-          data-aos-delay="600"
-          className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
-        >
-          <div
-            onClick={() =>
-              onClickProject(
-                "Pet Adoption",
-                picture2,
-                "Using the PetFinder API to search and display animals currenly up for adoption",
-                ["HTML5", "CSS3", "TAILWIND", "REACT", "API"]
-              )
-            }
-          >
-            <img className="projectPicture" src={picture2} alt="profile"></img>
-            <div className="projectDescription">
-              <p>
-                <span className="projectNameDesc">Pet Adoption</span> - HTML5 -
-                CSS3 - Tailwind - React - API
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div
-          data-aos="fade"
-          data-aos-duration="1500"
-          data-aos-delay="300"
+          data-aos-duration="1600"
+          data-aos-delay="700"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -110,8 +107,9 @@ function Projects() {
               onClickProject(
                 " Recreated Restaurant Page",
                 picture3,
-                "Recreation of Rosa's Cafe homePage using vanilla CSS",
-                ["HTML5", "CSS3", "REACT"]
+                "Recreation of Rosa's Cafe home page using vanilla CSS",
+                [" HTML5 ", " CSS3 ", " REACT "],
+                "https://github.com/Jwilkins48/mock-restaurant"
               )
             }
           >
@@ -130,7 +128,7 @@ function Projects() {
         <div
           data-aos="fade"
           data-aos-duration="1500"
-          data-aos-delay="600"
+          data-aos-delay="400"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -138,8 +136,9 @@ function Projects() {
               onClickProject(
                 "Personal Blog",
                 picture4,
-                "Sign up and begin posting on your blog!",
-                ["HTML5", "CSS3", "TAILWIND", "REACT", "FIREBASE"]
+                "Simple personal blog made using Firebase. The user can create and account or sign in to begin posting.",
+                [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
+                "https://github.com/Jwilkins48/Blog"
               )
             }
           >
@@ -155,8 +154,8 @@ function Projects() {
 
         <div
           data-aos="fade"
-          data-aos-duration="1500"
-          data-aos-delay="300"
+          data-aos-duration="1600"
+          data-aos-delay="700"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -164,8 +163,9 @@ function Projects() {
               onClickProject(
                 "Recipe Page",
                 picture5,
-                "Search Recipes from the Spoontacular API",
-                ["HTML5", "CSS3", "REACT", "API"]
+                "This project uses the EDAMAM API to search for and review recipes",
+                [" HTML5 ", " CSS3 ", " REACT ", " API "],
+                "https://github.com/Jwilkins48/Recipe-Page"
               )
             }
           >
@@ -179,7 +179,7 @@ function Projects() {
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="fade"
           data-aos-duration="1500"
           data-aos-delay="600"
@@ -203,7 +203,7 @@ function Projects() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

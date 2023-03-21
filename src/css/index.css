@@ -309,6 +309,8 @@ body {
 
 .open {
   transition: ease-in 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Carousel */
@@ -319,6 +321,16 @@ body {
 }
 
 /* PROJECT SECTION */
+
+.overlay {
+  z-index: 1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(34, 34, 34, 0.425);
+}
 
 .projectContainer {
   display: flex;
