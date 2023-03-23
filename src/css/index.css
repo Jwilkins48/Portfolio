@@ -79,7 +79,6 @@ body {
   position: fixed;
   bottom: 0;
   right: auto;
-  /* z-index: 1; */
 }
 
 .leftIconInfo ul {
@@ -185,7 +184,6 @@ body {
   color: #2fcc98;
   width: fit-content;
   font-family: "Lobster Two", cursive;
-  /* font-size: 52px; */
   overflow: hidden;
   border-right: 0.15em solid #54c49e;
   white-space: nowrap;
@@ -347,8 +345,6 @@ body {
   text-align: center;
   background-color: #1f5861;
   border-radius: 6px;
-  /* width: 37rem;
-  height: 20rem; */
   margin-bottom: 8em;
 }
 
@@ -385,7 +381,6 @@ body {
 .contactHeader {
   text-shadow: 4px 3px 0px #b87325, 9px 8px 0px rgba(0, 0, 0, 0.15);
   color: #e29d4d;
-  /* font-size: 70px; */
   font-family: "Comfortaa", cursive;
 }
 
@@ -396,8 +391,6 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-align: center;
   font-family: "Comfortaa", cursive;
-  /* width: 45rem; */
-  /* height: 25rem; */
   background-color: #286872;
   border-radius: 10px;
   display: flex;

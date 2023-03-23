@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function SideMenu({ formData, sideBar, setSideBar }) {
-  // console.log(formData);
   return (
     <div>
       <div className="flex justify-between items-center px-4 pt-5 relative">
@@ -70,9 +69,12 @@ function SideMenu({ formData, sideBar, setSideBar }) {
           </a>
         </div>
 
-        <button className="fixed btn w-full lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]">
+        <Link
+          className="fixed btn w-full lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]"
+          to={formData?.website}
+        >
           Visit Website
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -82,7 +82,8 @@ function Projects() {
                 picture1,
                 "Daisies is an e-commerce website designed to display the latest in fashion. The Site features an option to sign in and add items to your wishlist. When you're ready to check out just visit the cart to see your total!",
                 [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
-                "https://github.com/Jwilkins48/Market"
+                "https://github.com/Jwilkins48/Clothing-Store",
+                "https://clothing-store-fysgf6ayi-jwilkins48.vercel.app/"
               )
             }
           >
@@ -109,7 +110,8 @@ function Projects() {
                 picture3,
                 "Recreation of Rosa's Cafe home page using vanilla CSS",
                 [" HTML5 ", " CSS3 ", " REACT "],
-                "https://github.com/Jwilkins48/mock-restaurant"
+                "https://github.com/Jwilkins48/mock-restaurant",
+                "https://mock-restaurant.vercel.app/"
               )
             }
           >
@@ -138,7 +140,8 @@ function Projects() {
                 picture4,
                 "Simple personal blog made using Firebase. The user can create and account or sign in to begin posting.",
                 [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
-                "https://github.com/Jwilkins48/Blog"
+                "https://github.com/Jwilkins48/Blog",
+                "https://blog-nine-beige-43.vercel.app/"
               )
             }
           >
@@ -165,7 +168,8 @@ function Projects() {
                 picture5,
                 "This project uses the EDAMAM API to search for and review recipes",
                 [" HTML5 ", " CSS3 ", " REACT ", " API "],
-                "https://github.com/Jwilkins48/Recipe-Page"
+                "https://github.com/Jwilkins48/Recipe-Page",
+                "https://mock-restaurant-5gqy.vercel.app/"
               )
             }
           >
@@ -178,32 +182,6 @@ function Projects() {
             </div>
           </div>
         </div>
-
-        {/* <div
-          data-aos="fade"
-          data-aos-duration="1500"
-          data-aos-delay="600"
-          className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
-        >
-          <div
-            onClick={() =>
-              onClickProject(
-                "Twitter Clone",
-                picture6,
-                "Recreation of the twitter homepage using vanilla CSS",
-                ["HTML5", "CSS3", "REACT"]
-              )
-            }
-          >
-            <img className="projectPicture" src={picture6} alt="profile"></img>
-            <div className="projectDescription">
-              <p>
-                <span className="projectNameDesc">Twitter Clone</span> - HTML5 -
-                CSS3 - React
-              </p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );
