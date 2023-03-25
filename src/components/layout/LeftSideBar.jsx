@@ -4,17 +4,17 @@ function LeftSideBar() {
       <ul>
         <li>
           <a href="https://github.com/Jwilkins48">
-            <i className="devicon-github-original"></i>
+            <i className="devicon-github-original" />
           </a>
         </li>
         <li>
           <a href="mailto: Jenna48071@gmail.com">
-            <i className="fa-regular fa-envelope mb-1"></i>
+            <i className="fa-regular fa-envelope mb-1" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/Jenna682">
-            <i className="devicon-twitter-original"></i>
+          <a href="https://www.linkedin.com/in/jenna-wilkins-109aa126b/">
+            <i className="devicon-linkedin-plain" />
           </a>
         </li>
       </ul>

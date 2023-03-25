@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../css/hamburgerMenu.css";
 import "animate.css";
-import Carousel from "./Carousel";
+import resume from "../../assets/Resume.pdf";
 
 function Navbar() {
   //Checkbox toggle
@@ -16,6 +16,11 @@ function Navbar() {
     }
   };
   window.addEventListener("scroll", changeNavColor);
+
+  const seeResume = () => {
+    setChecked(false);
+    window.open(resume);
+  };
 
   return (
     <nav
@@ -47,10 +52,16 @@ function Navbar() {
         </a>
         <a
           className="navBarLinks animate__animated animate__fadeInDown three"
-          href="mailto: Jenna48071@gmail.com"
+          href="mailto: JwilkinsDev@gmail.com"
         >
           Contact Me
         </a>
+        <button
+          onClick={() => seeResume()}
+          className="text-[#d5903f] hover:text-[#c0c7cc] font-bold animate__animated animate__fadeInDown three"
+        >
+          Resume
+        </button>
       </div>
 
       {/* MOBILE */}
@@ -85,13 +96,12 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a
-                onClick={() => setChecked(false)}
-                className="hamburgerItem three"
-                href="#"
+              <button
+                onClick={() => seeResume()}
+                className="hamburgerItem three text-[#f38630] mb-[24px]"
               >
                 Resume
-              </a>
+              </button>
             </li>
             <li>
               <a

@@ -9,20 +9,20 @@ function Contact() {
         </h1>
         <div className="contactHeadersContainer">
           <p>
-            <a href="mailto: Jenna48071@gmail.com">Send me an email</a> or check
-            out my socials below
+            <a href="mailto: JwilkinsDev@gmail.com">Send me an email</a> or
+            check out my socials below
           </p>
         </div>
 
         <div className="contactIconContainer">
           <a href="https://github.com/Jwilkins48">
-            <i className="devicon-github-original"></i>
+            <i className="devicon-github-original" />
           </a>
-          <a href="mailto: Jenna48071@gmail.com">
-            <i className="fa-regular fa-envelope mb-1"></i>
+          <a href="mailto: JwilkinsDev@gmail.com">
+            <i className="fa-regular fa-envelope mb-1" />
           </a>
-          <a href="https://twitter.com/Jenna682">
-            <i className="devicon-twitter-original"></i>
+          <a href="https://www.linkedin.com/in/jenna-wilkins-109aa126b/">
+            <i className="devicon-linkedin-plain" />
           </a>
         </div>
       </div>
