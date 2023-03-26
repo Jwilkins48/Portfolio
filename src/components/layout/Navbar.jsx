@@ -17,6 +17,7 @@ function Navbar() {
   };
   window.addEventListener("scroll", changeNavColor);
 
+  //Open Resume PDF
   const seeResume = () => {
     setChecked(false);
     window.open(resume);
