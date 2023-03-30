@@ -15,13 +15,16 @@ function Contact() {
         </div>
 
         <div className="contactIconContainer">
-          <a href="https://github.com/Jwilkins48">
+          <a target="_blank" href="https://github.com/Jwilkins48">
             <i className="devicon-github-original" />
           </a>
-          <a href="mailto: JwilkinsDev@gmail.com">
+          <a target="_blank" href="mailto: JwilkinsDev@gmail.com">
             <i className="fa-regular fa-envelope mb-1" />
           </a>
-          <a href="https://www.linkedin.com/in/jenna-wilkins-109aa126b/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/jenna-wilkins-109aa126b/"
+          >
             <i className="devicon-linkedin-plain" />
           </a>
         </div>

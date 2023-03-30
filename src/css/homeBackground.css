@@ -6,6 +6,9 @@
 }
 
 .helloMessage {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
   font-size: 37px;
   margin-bottom: 2px;
   color: #e0a969;

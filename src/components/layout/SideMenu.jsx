@@ -62,6 +62,7 @@ function SideMenu({ formData, sideBar, setSideBar }) {
             GitHub
           </h1>
           <a
+            target="_blank"
             href={formData?.gitHub}
             className="text-[17px] px-4 hover:underline "
           >
@@ -70,6 +71,7 @@ function SideMenu({ formData, sideBar, setSideBar }) {
         </div>
 
         <Link
+          target="_blank"
           className="fixed btn w-full h-14 lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]"
           to={formData?.website}
         >
