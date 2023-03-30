@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../css/hamburgerMenu.css";
 import "animate.css";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/Resume2023.pdf";
 
 function Navbar() {
   //Checkbox toggle

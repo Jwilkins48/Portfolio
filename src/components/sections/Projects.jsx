@@ -83,7 +83,7 @@ function Projects() {
                 "Daisies is an e-commerce website designed to display the latest in fashion. The Site features an option to sign in and add items to your wishlist. When you're ready to check out just visit the cart to see your total!",
                 [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
                 "https://github.com/Jwilkins48/Clothing-Store",
-                "https://clothing-store-fysgf6ayi-jwilkins48.vercel.app/"
+                "https://clothing-store-psi.vercel.app/"
               )
             }
           >
