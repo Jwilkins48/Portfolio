@@ -35,9 +35,11 @@ function Projects() {
   };
   const [sideBar, setSideBar] = useState(false);
   useEffect(() => {
-    sideBar
-      ? (document.body.style.overflow = "hidden")
-      : (document.body.style.overflow = "unset");
+    if (window.innerWidth > 900) {
+      sideBar
+        ? (document.body.style.overflow = "hidden")
+        : (document.body.style.overflow = "unset");
+    }
   }, [sideBar]);
   return (
     <section id="projects" className="projectContainer pb-16 relative">
