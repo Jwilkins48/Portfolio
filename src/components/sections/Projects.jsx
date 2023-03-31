@@ -35,11 +35,9 @@ function Projects() {
   };
   const [sideBar, setSideBar] = useState(false);
   useEffect(() => {
-    if (window.innerWidth > 900) {
-      sideBar
-        ? (document.body.style.overflow = "hidden")
-        : (document.body.style.overflow = "unset");
-    }
+    sideBar
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "unset");
   }, [sideBar]);
   return (
     <section id="projects" className="projectContainer pb-16 relative">
@@ -80,7 +78,7 @@ function Projects() {
               onClickProject(
                 "Clothing Store",
                 picture1,
-                "Daisies is an e-commerce website designed to display the latest in fashion. The Site features an option to sign in and add items to your wishlist. When you're ready to check out just visit the cart to see your total!",
+                "Daisies is an e-commerce website that displays the latest in fashion. Start by signing in and adding items to your wishlist. When you're ready to check out just visit the cart to see your total!",
                 [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
                 "https://github.com/Jwilkins48/Clothing-Store",
                 "https://clothing-store-psi.vercel.app/"

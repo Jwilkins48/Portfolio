@@ -58,7 +58,18 @@ function SideMenu({ formData, sideBar, setSideBar }) {
         </div>
 
         <div className="">
-          <h1 className="text-xl font-bold pl-4 pt-6 mb-0 pb-0 text-[#e0a969]">
+          <h1 className="text-xl font-bold pl-4 pt-3 mb-0 pb-0 text-[#e0a969]">
+            Visit Website
+          </h1>
+          <a
+            target="_blank"
+            href={formData?.website}
+            className="text-[17px] px-4 hover:underline "
+          >
+            <p className="mt-[-20px] px-4">{formData?.website}</p>
+          </a>
+
+          <h1 className="text-xl font-bold pl-4  mb-0 pb-0 text-[#e0a969]">
             GitHub
           </h1>
           <a
@@ -70,13 +81,13 @@ function SideMenu({ formData, sideBar, setSideBar }) {
           </a>
         </div>
 
-        <Link
+        {/* <Link
           target="_blank"
           className="fixed btn w-full h-16 lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]"
           to={formData?.website}
         >
           Visit Website
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
