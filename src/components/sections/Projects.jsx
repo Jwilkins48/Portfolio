@@ -1,9 +1,7 @@
 import picture1 from "../../assets/projectImgs/ClothingStore.png";
-import picture2 from "../../assets/projectImgs/PetAdoption.png";
 import picture3 from "../../assets/projectImgs/Rosas.png";
 import picture4 from "../../assets/projectImgs/blog.png";
-import picture5 from "../../assets/projectImgs/Recipe.png";
-import picture6 from "../../assets/projectImgs/TwitterClone.png";
+import picture5 from "../../assets/projectImgs/hangman.png";
 import { useEffect, useState } from "react";
 import SideMenu from "../layout/SideMenu";
 
@@ -164,20 +162,20 @@ function Projects() {
           <div
             onClick={() =>
               onClickProject(
-                "Recipe Page",
+                "Hangman",
                 picture5,
-                "This project uses the EDAMAM API to search for and review recipes",
-                [" HTML5 ", " CSS3 ", " REACT ", " API "],
-                "https://github.com/Jwilkins48/Recipe-Page",
-                "https://mock-restaurant-5gqy.vercel.app/"
+                "Play a spooky game of hangman! Made with vanilla CSS and JavaScript",
+                [" HTML5 ", " CSS3 ", " JavaScript "],
+                "https://github.com/Jwilkins48/Hangman",
+                "https://hangman-gray.vercel.app/"
               )
             }
           >
             <img className="projectPicture" src={picture5} alt="profile"></img>
             <div className="projectDescription">
               <p>
-                <span className="projectNameDesc">Recipe Page</span> - HTML5 -
-                CSS3 - React - API
+                <span className="projectNameDesc">Hangman</span> - HTML5 - CSS3
+                - JavaScript
               </p>
             </div>
           </div>

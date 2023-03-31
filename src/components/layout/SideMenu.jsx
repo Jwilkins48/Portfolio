@@ -72,7 +72,7 @@ function SideMenu({ formData, sideBar, setSideBar }) {
 
         <Link
           target="_blank"
-          className="fixed btn w-full h-14 lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]"
+          className="fixed btn w-full h-16 lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]"
           to={formData?.website}
         >
           Visit Website
