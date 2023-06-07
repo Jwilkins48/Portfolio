@@ -28,7 +28,6 @@ function SideMenu({ formData, sideBar, setSideBar }) {
         <h1 className="text-3xl font-bold pl-5 pb-1 text-[#e0a969]">
           {formData?.name}
         </h1>
-
         <figure className="p-4">
           <img
             className="rounded-xl shadow-2xl"
@@ -36,17 +35,15 @@ function SideMenu({ formData, sideBar, setSideBar }) {
             alt="project"
           />
         </figure>
-
         <div>
-          <h1 className="text-2xl font-bold pl-4 pt-4 text-[#e0a969]">About</h1>
+          <h1 className="text-2xl font-bold pl-4 text-[#e0a969]">About</h1>
           <p className="text-[17px] px-4 pt-2">{formData?.description}</p>
         </div>
-
         <div>
           <h1 className="text-2xl font-bold pl-4 pt-4 text-[#e0a969]">
             Languages Used
           </h1>
-          <p className="flex gap-2 px-3 pt-2">
+          <p className="flex flex-wrap gap-2 px-3 pt-2">
             {formData?.languagesUsed.map((item) => {
               return (
                 <div className="badge py-4 px-8 mt-1 max-w-[4rem] text-[13px]">
@@ -56,7 +53,6 @@ function SideMenu({ formData, sideBar, setSideBar }) {
             })}
           </p>
         </div>
-
         <div className="">
           <h1 className="text-xl font-bold pl-4 pt-3 mb-0 pb-0 text-[#e0a969]">
             Visit Website
@@ -69,7 +65,7 @@ function SideMenu({ formData, sideBar, setSideBar }) {
             <p className="mt-[-20px] px-4">{formData?.website}</p>
           </a>
 
-          <h1 className="text-xl font-bold pl-4  mb-0 pb-0 text-[#e0a969]">
+          <h1 className="text-xl font-bold pl-4 mb-0 pb-0 text-[#e0a969]">
             GitHub
           </h1>
           <a
@@ -80,14 +76,6 @@ function SideMenu({ formData, sideBar, setSideBar }) {
             <p className="mt-[-20px] px-4">{formData?.gitHub}</p>
           </a>
         </div>
-
-        {/* <Link
-          target="_blank"
-          className="fixed btn w-full h-16 lg:w-[32rem] border-0 bg-[#e0a969] rounded-none bottom-0 right-0 text-[#1f5861] hover:text-[#e0a969]"
-          to={formData?.website}
-        >
-          Visit Website
-        </Link> */}
       </div>
     </div>
   );
