@@ -28,6 +28,9 @@ function Carousel() {
           <a href="#" alt="NodeJs">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-nodejs-plain-wordmark" />
           </a>
+          <a href="#" alt="TypeScript">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-typescript-plain" />
+          </a>
         </div>
         <div className="flex w-[100%] justify-around">
           <a href="#" alt="HTML">
@@ -53,6 +56,9 @@ function Carousel() {
           </a>
           <a href="#" alt="NodeJs">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-nodejs-plain-wordmark" />
+          </a>
+          <a href="#" alt="TypeScript">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-typescript-plain" />
           </a>
         </div>
       </div>

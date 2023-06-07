@@ -1,6 +1,6 @@
 import picture1 from "../../assets/projectImgs/ClothingStore.png";
 import picture3 from "../../assets/projectImgs/Rosas.png";
-import picture4 from "../../assets/projectImgs/blog.png";
+import picture4 from "../../assets/projectImgs/movie1.png";
 import picture5 from "../../assets/projectImgs/hangman.png";
 import { useEffect, useState } from "react";
 import SideMenu from "../layout/SideMenu";
@@ -79,7 +79,7 @@ function Projects() {
                 "Clothing Store",
                 picture1,
                 "Daisies is an e-commerce website that displays the latest in fashion. Start by signing in and adding items to your wishlist. When you're ready to check out just visit the cart to see your total!",
-                [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
+                [" HTML5 ", " CSS3 ", " React ", " Firebase ", " Tailwind "],
                 "https://github.com/Jwilkins48/Clothing-Store",
                 "https://clothing-store-psi.vercel.app/"
               )
@@ -104,22 +104,31 @@ function Projects() {
           <div
             onClick={() =>
               onClickProject(
-                " Recreated Restaurant Page",
-                picture3,
-                "Recreation of Rosa's Cafe home page using vanilla CSS",
-                [" HTML5 ", " CSS3 ", " REACT "],
-                "https://github.com/Jwilkins48/mock-restaurant",
-                "https://mock-restaurant.vercel.app/"
+                "Movie Rating App",
+                picture4,
+                "Simple Movie App using Firebase. Sign in and begin adding movies to your personal watch list. After finishing just click watched to give it a rating.",
+                [
+                  " HTML5 ",
+                  " CSS3 ",
+                  " React ",
+                  " TypeScript ",
+                  " Firebase ",
+                  " Tailwind",
+                ],
+                "https://github.com/Jwilkins48/Movie-Rating",
+                "https://movie-rating-orpin.vercel.app/"
               )
             }
           >
-            <img className="projectPicture" src={picture3} alt="profile"></img>
+            <img
+              className="projectPicture h-[11rem] lg:h-[21rem]"
+              src={picture4}
+              alt="profile"
+            ></img>
             <div className="projectDescription">
               <p>
-                <span className="projectNameDesc">
-                  Recreated Restaurant Page
-                </span>{" "}
-                - HTML5 - CSS3 - React
+                <span className="projectNameDesc">Movie Rating App</span> -
+                HTML5 - CSS3 - React - TypeScript - Firebase - Tailwind
               </p>
             </div>
           </div>
@@ -134,20 +143,22 @@ function Projects() {
           <div
             onClick={() =>
               onClickProject(
-                "Personal Blog",
-                picture4,
-                "Simple personal blog made using Firebase. The user can create and account or sign in to begin posting.",
-                [" HTML5 ", " CSS3 ", " TAILWIND ", " REACT ", " FIREBASE "],
-                "https://github.com/Jwilkins48/Blog",
-                "https://blog-nine-beige-43.vercel.app/"
+                " Recreated Restaurant Page",
+                picture3,
+                "Recreation of Rosa's Cafe home page using vanilla CSS",
+                [" HTML5 ", " CSS3 ", " React "],
+                "https://github.com/Jwilkins48/mock-restaurant",
+                "https://mock-restaurant.vercel.app/"
               )
             }
           >
-            <img className="projectPicture" src={picture4} alt="profile"></img>
+            <img className="projectPicture" src={picture3} alt="profile"></img>
             <div className="projectDescription">
               <p>
-                <span className="projectNameDesc">Personal Blog</span> - HTML5 -
-                CSS3 - Tailwind - React - Firebase
+                <span className="projectNameDesc">
+                  Recreated Restaurant Page
+                </span>{" "}
+                - HTML5 - CSS3 - React
               </p>
             </div>
           </div>

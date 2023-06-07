@@ -37,7 +37,7 @@ function About() {
           ></img>
 
           <div className="aboutMeContainer m-[12px] lg:m-0 lg:w-[900px] lg:h-[410px] p-4 lg:p-[30px] overflow-hidden">
-            <p className="aboutMe text-[15px] lg:text-[20px]">
+            <p className="aboutMe text-[15px] lg:text-[22px]">
               Hello, My name is Jenna! I started doing front end web development
               because of my desire for a career in problem solving and creating
               projects that I can feel proud of. I currently have an Associates
@@ -49,10 +49,8 @@ function About() {
                 HTML5, CSS3, JavaScript and ReactJS.
               </span>{" "}
               I have recently been working on projects using{" "}
-              <span className="text-green-400">Firebase </span>
-              to strengthen my experience with databases and authentication.
-              Below you will find other languages I have been working on as well
-              as some of my recent projects!
+              <span className="text-green-400">TypeScript </span>
+              to strengthen my experience and knowledge as a developer.
             </p>
           </div>
         </div>
