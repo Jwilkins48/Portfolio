@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../../css/homeBackground.css";
 import RightSidebar from "../layout/RightSideBar";
 
