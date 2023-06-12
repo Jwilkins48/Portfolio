@@ -9,11 +9,11 @@ function SideMenu({ formData, sideBar, setSideBar }) {
           className="hover:underline "
           onClick={() => setSideBar(!sideBar)}
         >
-          <i className="fa-solid fa-angle-left" />
+          <i className="fa-solid text-[#c1cbd7] fa-angle-left" />
         </button>
 
         <button
-          className="hover:underline"
+          className="hover:underline text-[#c1cbd7]"
           onClick={() => setSideBar(!sideBar)}
         >
           Hide Menu
@@ -37,7 +37,9 @@ function SideMenu({ formData, sideBar, setSideBar }) {
         </figure>
         <div>
           <h1 className="text-2xl font-bold pl-4 text-[#e0a969]">About</h1>
-          <p className="text-[17px] px-4 pt-2">{formData?.description}</p>
+          <p className="text-[17px] px-4 pt-2 text-[#c1cbd7]">
+            {formData?.description}
+          </p>
         </div>
         <div>
           <h1 className="text-2xl font-bold pl-4 pt-4 text-[#e0a969]">
@@ -46,7 +48,7 @@ function SideMenu({ formData, sideBar, setSideBar }) {
           <p className="flex flex-wrap gap-2 px-3 pt-2">
             {formData?.languagesUsed.map((item) => {
               return (
-                <div className="badge py-4 px-8 mt-1 max-w-[4rem] text-[13px]">
+                <div className="badge text-[#c1cbd7] py-4 px-8 mt-1 max-w-[4rem] text-[13px]">
                   {item}
                 </div>
               );
@@ -60,18 +62,18 @@ function SideMenu({ formData, sideBar, setSideBar }) {
           <a
             target="_blank"
             href={formData?.website}
-            className="text-[17px] px-4 hover:underline "
+            className="text-[17px] text-[#c1cbd7] px-4 hover:underline "
           >
             <p className="mt-[-20px] px-4">{formData?.website}</p>
           </a>
 
-          <h1 className="text-xl font-bold pl-4 mb-0 pb-0 text-[#e0a969]">
+          <h1 className="text-xl  font-bold pl-4 mb-0 pb-0 text-[#e0a969]">
             GitHub
           </h1>
           <a
             target="_blank"
             href={formData?.gitHub}
-            className="text-[17px] px-4 hover:underline "
+            className="text-[17px] text-[#c1cbd7] px-4 hover:underline "
           >
             <p className="mt-[-20px] px-4">{formData?.gitHub}</p>
           </a>
