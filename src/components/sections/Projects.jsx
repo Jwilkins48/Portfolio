@@ -1,4 +1,4 @@
-import picture1 from "../../assets/projectImgs/ClothingStore.png";
+import picture1 from "../../assets/projectImgs/ClothingStore_adobe_express.svg";
 import picture3 from "../../assets/projectImgs/Rosas.png";
 import picture4 from "../../assets/projectImgs/movie1.png";
 import picture5 from "../../assets/projectImgs/hangman.png";
