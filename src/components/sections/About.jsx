@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
-import profilePicture from "../../assets/profilePictureEdit.jpg";
+import profilePicture from "../../assets/projectImgs/Jenna.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Carousel from "../layout/Carousel";
@@ -28,13 +28,16 @@ function About() {
         <div
           data-aos="fade"
           data-aos-duration="1500"
-          className="aboutTopInfo flex flex-col md:flex-row lg:flex-row justify-center items-center"
+          className="aboutTopInfo flex flex-col md:flex-row lg:flex-row justify-center items-center "
         >
-          <img
-            className="profilePicture w-80 lg:w-[390px]  lg:ml-[0px] lg:mr-[30px] lg:h-[390px] lg:mb-0 mb-8"
-            src={profilePicture}
-            alt="profile"
-          ></img>
+          <div>
+            <img
+              // className="profilePicture lg:ml-[0px] lg:mr-[30px] w-full h-auto lg:mb-0 mb-8"
+              className="profilePicture w-80 lg:w-[390px] lg:ml-[0px] lg:mr-[30px] lg:h-[390px] lg:mb-0 mb-8"
+              src={profilePicture}
+              alt="profile"
+            ></img>
+          </div>
 
           <div className="aboutMeContainer m-[12px] lg:m-0 lg:w-[900px] lg:h-[410px] p-4 lg:p-[30px] overflow-hidden">
             <p className="aboutMe text-[15px] lg:text-[22px]">
