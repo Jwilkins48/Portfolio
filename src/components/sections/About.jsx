@@ -32,8 +32,7 @@ function About() {
         >
           <div>
             <img
-              // className="profilePicture lg:ml-[0px] lg:mr-[30px] w-full h-auto lg:mb-0 mb-8"
-              className="profilePicture w-80 lg:w-[390px] lg:ml-[0px] lg:mr-[30px] lg:h-[390px] lg:mb-0 mb-8"
+              className="profilePicture lg:ml-[0px] lg:mr-[30px] w-full h-auto md:max-w-[390px] max-w-[320px] mr-3 lg:mb-5 mb-8"
               src={profilePicture}
               alt="profile"
             ></img>

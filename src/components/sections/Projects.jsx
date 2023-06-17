@@ -121,7 +121,7 @@ function Projects() {
             }
           >
             <img
-              className="projectPicture h-[11rem] lg:h-[21rem]"
+              className="projectPicture w-full h-auto max-w-[21rem] lg:max-w-[37rem] lg:h-[21rem]"
               src={picture4}
               alt="profile"
             ></img>
@@ -152,7 +152,11 @@ function Projects() {
               )
             }
           >
-            <img className="projectPicture" src={picture3} alt="profile"></img>
+            <img
+              className="projectPicture w-full h-auto max-w-[21rem] lg:max-w-[37rem]"
+              src={picture3}
+              alt="profile"
+            ></img>
             <div className="projectDescription">
               <p>
                 <span className="projectNameDesc">
@@ -182,7 +186,11 @@ function Projects() {
               )
             }
           >
-            <img className="projectPicture" src={picture5} alt="profile"></img>
+            <img
+              className="projectPicture w-full h-auto max-w-[21rem] lg:max-w-[37rem]"
+              src={picture5}
+              alt="profile"
+            ></img>
             <div className="projectDescription">
               <p>
                 <span className="projectNameDesc">Hangman</span> - HTML5 - CSS3
