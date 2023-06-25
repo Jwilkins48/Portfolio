@@ -1,7 +1,7 @@
 import picture1 from "../../assets/projectImgs/ClothingStore_adobe_express.svg";
+import picture2 from "../../assets/projectImgs/PetAdoption.webp";
 import picture3 from "../../assets/projectImgs/Rosas.webp";
 import picture4 from "../../assets/projectImgs/movie1.webp";
-import picture5 from "../../assets/projectImgs/hangman.webp";
 import { useEffect, useState } from "react";
 import SideMenu from "../layout/SideMenu";
 
@@ -70,7 +70,6 @@ function Projects() {
         <div
           data-aos="fade"
           data-aos-duration="1500"
-          data-aos-delay="400"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -97,8 +96,71 @@ function Projects() {
 
         <div
           data-aos="fade"
+          data-aos-delay="400"
+          data-aos-duration="1500"
+          className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
+        >
+          <div
+            onClick={() =>
+              onClickProject(
+                "Furry Friends Pet Adoption",
+                picture2,
+                "Pet Adoption website using the PetFinder API.",
+                [" HTML5 ", " CSS3 ", " React ", " API ", "Tailwind"],
+                "https://github.com/Jwilkins48/Pet-Adoption",
+                "https://furry-friends-tan.vercel.app/"
+              )
+            }
+          >
+            <img
+              className="projectPicture h-[11rem] lg:h-[21rem]"
+              src={picture2}
+              alt="profile"
+            ></img>
+            <div className="projectDescription">
+              <p>
+                <span className="projectNameDesc">
+                  Furry Friends Pet Adoption
+                </span>{" "}
+                - HTML5 - CSS3 - React - API - Tailwind
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          data-aos="fade"
+          data-aos-duration="1500"
+          className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
+        >
+          <div
+            onClick={() =>
+              onClickProject(
+                " Recreated Restaurant Page",
+                picture3,
+                "Recreation of Rosa's Cafe home page using vanilla CSS",
+                [" HTML5 ", " CSS3 ", " React "],
+                "https://github.com/Jwilkins48/mock-restaurant",
+                "https://mock-restaurant.vercel.app/"
+              )
+            }
+          >
+            <img className="projectPicture" src={picture3} alt="profile"></img>
+            <div className="projectDescription">
+              <p>
+                <span className="projectNameDesc">
+                  Recreated Restaurant Page
+                </span>{" "}
+                - HTML5 - CSS3 - React
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          data-aos="fade"
           data-aos-duration="1600"
-          data-aos-delay="700"
+          data-aos-delay="400"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -134,40 +196,10 @@ function Projects() {
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="fade"
-          data-aos-duration="1500"
           data-aos-delay="400"
-          className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
-        >
-          <div
-            onClick={() =>
-              onClickProject(
-                " Recreated Restaurant Page",
-                picture3,
-                "Recreation of Rosa's Cafe home page using vanilla CSS",
-                [" HTML5 ", " CSS3 ", " React "],
-                "https://github.com/Jwilkins48/mock-restaurant",
-                "https://mock-restaurant.vercel.app/"
-              )
-            }
-          >
-            <img className="projectPicture" src={picture3} alt="profile"></img>
-            <div className="projectDescription">
-              <p>
-                <span className="projectNameDesc">
-                  Recreated Restaurant Page
-                </span>{" "}
-                - HTML5 - CSS3 - React
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div
-          data-aos="fade"
-          data-aos-duration="1600"
-          data-aos-delay="700"
+          data-aos-duration="1500"
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
@@ -190,7 +222,7 @@ function Projects() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
