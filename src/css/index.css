@@ -281,7 +281,7 @@ body {
 
 .projectPicture:hover {
   transform: scale(102%);
-  margin-right: 30px;
+  margin-right: 5px;
   box-shadow: 12px 8px #fcffff26;
   border-radius: 5px;
   cursor: pointer;
@@ -303,12 +303,6 @@ body {
 .workingOnIcons {
   margin-top: 14px;
   color: #335458;
-}
-
-.open {
-  transition: ease-in 0.5s;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Carousel */

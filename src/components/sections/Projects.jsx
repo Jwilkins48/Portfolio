@@ -44,7 +44,7 @@ function Projects() {
       <div
         className={
           sideBar
-            ? "bg-[#335458] h-[110vh] w-full lg:w-[32rem] opacity-1 z-20 fixed top-0 right-0 open animate__animated animate__fadeInRight h-screen"
+            ? "bg-[#335458] h-[110vh] w-full lg:w-[32rem] opacity-1 z-20 fixed top-0 right-0 animate__animated animate__fadeInRight h-screen"
             : ""
         }
       >
@@ -59,6 +59,7 @@ function Projects() {
         )}
       </div>
       <div className={sideBar ? "overlay" : ""}></div>
+
       <h1
         data-aos="fade"
         data-aos-duration="1500"
@@ -73,6 +74,7 @@ function Projects() {
           className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
         >
           <div
+            htmlFor="my-drawer-4"
             onClick={() =>
               onClickProject(
                 "Clothing Store",
@@ -113,7 +115,7 @@ function Projects() {
             }
           >
             <img
-              className="projectPicture h-[11rem] lg:h-[21rem]"
+              className="projectPicture h-[11rem] lg:h-[21rem] w-[21rem] lg:w-auto"
               src={picture2}
               alt="profile"
             ></img>
@@ -195,34 +197,6 @@ function Projects() {
             </div>
           </div>
         </div>
-
-        {/* <div
-          data-aos="fade"
-          data-aos-delay="400"
-          data-aos-duration="1500"
-          className="project w-[21rem] h-[9rem] m-auto lg:w-[37rem] lg:h-[20rem]"
-        >
-          <div
-            onClick={() =>
-              onClickProject(
-                "Hangman",
-                picture5,
-                "Play a spooky game of hangman! Made with vanilla CSS and JavaScript",
-                [" HTML5 ", " CSS3 ", " JavaScript "],
-                "https://github.com/Jwilkins48/Hangman",
-                "https://hangman-gray.vercel.app/"
-              )
-            }
-          >
-            <img className="projectPicture" src={picture5} alt="profile"></img>
-            <div className="projectDescription">
-              <p>
-                <span className="projectNameDesc">Hangman</span> - HTML5 - CSS3
-                - JavaScript
-              </p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

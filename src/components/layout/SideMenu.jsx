@@ -3,7 +3,7 @@ import React from "react";
 function SideMenu({ formData, sideBar, setSideBar }) {
   return (
     <div>
-      <div className="flex justify-between items-center px-4 pt-5 relative">
+      <div className="flex justify-between items-center px-4 pt-3 relative">
         <button
           className="hover:underline "
           onClick={() => setSideBar(!sideBar)}
@@ -18,7 +18,7 @@ function SideMenu({ formData, sideBar, setSideBar }) {
           Hide Menu
         </button>
       </div>
-      <div className="divider">
+      <div className="divider my-1">
         <i className="fa-solid fa-code" />
       </div>
 
