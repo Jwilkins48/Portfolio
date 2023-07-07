@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
-import profilePicture from "../../assets/projectImgs/Jenna.webp";
+import profilePicture from "../../assets/projectImgs/Jenna-compressed.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Carousel from "../layout/Carousel";

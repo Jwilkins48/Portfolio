@@ -1,6 +1,6 @@
 import picture1 from "../../assets/projectImgs/ClothingStore_adobe_express.svg";
 import picture2 from "../../assets/projectImgs/PetAdoption.webp";
-import picture3 from "../../assets/projectImgs/Rosas.webp";
+import picture3 from "../../assets/projectImgs/Rosas.png";
 import picture4 from "../../assets/projectImgs/movie1.webp";
 import { useEffect, useState } from "react";
 import SideMenu from "../layout/SideMenu";
