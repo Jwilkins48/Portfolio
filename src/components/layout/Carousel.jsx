@@ -19,11 +19,17 @@ function Carousel() {
           <a href="#" alt="Wordpress">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-wordpress-plain-wordmark" />
           </a>
-          <a href="#" alt="React">
-            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
-          </a>
           <a href="#" alt="Firebase">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-firebase-plain-wordmark" />
+          </a>
+          <a href="#" alt="Mongo">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-mongodb-plain-wordmark" />
+          </a>
+          <a href="#" alt="Express">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-express-original-wordmark" />
+          </a>
+          <a href="#" alt="React">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
           </a>
           <a href="#" alt="NodeJs">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-nodejs-plain-wordmark" />
@@ -32,6 +38,7 @@ function Carousel() {
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-typescript-plain" />
           </a>
         </div>
+
         <div className="flex w-[100%] justify-around">
           <a href="#" alt="HTML">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-html5-plain-wordmark" />
@@ -48,11 +55,17 @@ function Carousel() {
           <a href="#" alt="Wordpress">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-wordpress-plain-wordmark" />
           </a>
-          <a href="#" alt="React">
-            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
-          </a>
           <a href="#" alt="Firebase">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-firebase-plain-wordmark" />
+          </a>
+          <a href="#" alt="Mongo">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-mongodb-plain-wordmark" />
+          </a>
+          <a href="#" alt="Express">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-express-original-wordmark" />
+          </a>
+          <a href="#" alt="React">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
           </a>
           <a href="#" alt="NodeJs">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-nodejs-plain-wordmark" />

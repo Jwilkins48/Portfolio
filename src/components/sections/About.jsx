@@ -45,13 +45,13 @@ function About() {
               projects that I can feel proud of. I currently have an Associates
               Degree in Web and Mobile Development and outside of working I
               spend all my free time creating as many new projects as I can. I
-              have been working with and am fairly experienced in{" "}
+              have been working with and am experienced in{" "}
               <span className="text-green-400">
                 {" "}
                 HTML5, CSS3, JavaScript and ReactJS.
               </span>{" "}
               I have recently been working on projects using{" "}
-              <span className="text-green-400">TypeScript </span>
+              <span className="text-green-400">MERN Stack </span>
               to strengthen my experience and knowledge as a developer.
             </p>
           </div>
