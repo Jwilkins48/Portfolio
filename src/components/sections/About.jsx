@@ -39,13 +39,11 @@ function About() {
           </div>
 
           <div className="aboutMeContainer m-[12px] lg:m-0 lg:w-[900px] lg:h-[410px] p-4 lg:p-[30px] overflow-hidden">
-            <p className="aboutMe text-[15px] lg:text-[22px]">
-              Hello, My name is Jenna! I started doing front end web development
-              because of my desire for a career in problem solving and creating
-              projects that I can feel proud of. I currently have an Associates
-              Degree in Web and Mobile Development and outside of working I
-              spend all my free time creating as many new projects as I can. I
-              have been working with and am experienced in{" "}
+            <p className="aboutMe text-[15px] lg:text-[25px]">
+              Hello, My name is Jenna! I currently have an Associates Degree in
+              Web and Mobile Development and outside of working I spend all my
+              free time creating as many new projects as I can. I have been
+              working with and am experienced in{" "}
               <span className="text-green-400">
                 {" "}
                 HTML5, CSS3, JavaScript and ReactJS.
