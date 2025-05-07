@@ -13,6 +13,11 @@ function Carousel() {
           <a href="#" alt="JavaScript">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-javascript-plain" />
           </a>
+
+          <a href="#" alt="React">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
+          </a>
+
           <a href="#" alt="GitHub">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-github-original-wordmark" />
           </a>
@@ -25,11 +30,11 @@ function Carousel() {
           <a href="#" alt="Mongo">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-mongodb-plain-wordmark" />
           </a>
+          <a href="#" alt="SQL">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-mysql-plain-wordmark colored" />
+          </a>
           <a href="#" alt="Express">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-express-original-wordmark" />
-          </a>
-          <a href="#" alt="React">
-            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
           </a>
           <a href="#" alt="NodeJs">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-nodejs-plain-wordmark" />
@@ -49,6 +54,11 @@ function Carousel() {
           <a href="#" alt="JavaScript">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-javascript-plain" />
           </a>
+
+          <a href="#" alt="React">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
+          </a>
+
           <a href="#" alt="GitHub">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-github-original-wordmark" />
           </a>
@@ -61,11 +71,11 @@ function Carousel() {
           <a href="#" alt="Mongo">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-mongodb-plain-wordmark" />
           </a>
+          <a href="#" alt="SQL">
+            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-mysql-plain-wordmark colored" />
+          </a>
           <a href="#" alt="Express">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-express-original-wordmark" />
-          </a>
-          <a href="#" alt="React">
-            <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-react-original-wordmark" />
           </a>
           <a href="#" alt="NodeJs">
             <i className="workingOnIcons mr-10 lg:mr-0 text-[35px] lg:text-[80px] devicon-nodejs-plain-wordmark" />

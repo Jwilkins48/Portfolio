@@ -8,7 +8,7 @@
 }
 .animate {
   width: 200%;
-  animation: marquee 30s linear infinite;
+  animation: marquee 55s linear infinite;
   top: 50%;
   transform: translate(0, -50%);
 }

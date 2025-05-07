@@ -40,17 +40,18 @@ function About() {
 
           <div className="aboutMeContainer m-[12px] lg:m-0 lg:w-[900px] lg:h-[410px] p-4 lg:p-[30px] overflow-hidden">
             <p className="aboutMe text-[15px] lg:text-[25px]">
-              Hello, My name is Jenna! I currently have an Associates Degree in
-              Web and Mobile Development and outside of working I spend all my
-              free time creating as many new projects as I can. I have been
-              working with and am experienced in{" "}
+              Hello, my name is <span className="text-green-400"> Jenna! </span>{" "}
+              I am an aspiring software developer from Dallas, Texas. My love
+              for coding stemmed from my passion for problem-solving and
+              creating something from nothing. Currently, I am finishing my{" "}
               <span className="text-green-400">
                 {" "}
-                HTML5, CSS3, JavaScript and ReactJS.
+                bachelor's degree in Software Engineering{" "}
               </span>{" "}
-              I have recently been working on projects using{" "}
-              <span className="text-green-400">MERN Stack </span>
-              to strengthen my experience and knowledge as a developer.
+              at Western Governors University, and am excited to enter the world
+              of web development. I am knowledgeable in multiple front and
+              back-end languages, but am most proficient in{" "}
+              <span className="text-green-400"> JavaScript, and ReactJS </span>.
             </p>
           </div>
         </div>

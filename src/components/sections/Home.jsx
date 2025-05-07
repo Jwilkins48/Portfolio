@@ -13,7 +13,7 @@ function Home() {
           </h1>
           <div className="welcomeMessage ml-2 lg:ml-[250px]">
             <h1 className="font-bold text-[35px] lg:text-[52px]">
-              Front End Web Developer
+              Full Stack Web Developer
             </h1>
           </div>
         </div>
